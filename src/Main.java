@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Lavoratore l = new Lavoratore("Francesco", "Stocco", "STCFNC07S16L736P", 16, "Studente", 0);
+        // creo oggetto di tipo Lavoratore
+        Lavoratore l = new Lavoratore("Mario", "Rossi", "aaaa", 16, "impiegato", 1400);
         l.stampa();
+
+        // in base ai parametri java capisce quale metodo chiamare tra quelli di cui ho fatto overloading
+        Lavoratore l2 = new Lavoratore();
     }
 }

@@ -11,6 +11,14 @@ public class Persona {
         this.cf = cf;
     }
 
+    // overloading del costruttore
+    public Persona(){
+        this.cf = "";
+        this.nome = "";
+        this.cognome = "";
+        this.eta = 0;
+    }
+
     public void stampa(){
         System.out.println("Nome: " + this.nome);
         System.out.println("Cognome: " + this.cognome);
